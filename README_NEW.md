@@ -27,7 +27,7 @@ cd ai-chatbot-gpt4o
 ```bash
 python3 -m venv venv
 source venv/bin/activate
-pip install -r requirements.txt
+pip install flask flask-cors openai python-dotenv
 ```
 
 ### 3. Configure environment variables
@@ -35,7 +35,7 @@ Create a `.env` file in the project root:
 ```env
 AZURE_OPENAI_API_KEY=your_actual_api_key
 AZURE_OPENAI_ENDPOINT=https://your-resource-name.openai.azure.com/
-AZURE_OPENAI_API_VERSION=2025-08-31-preview
+AZURE_OPENAI_API_VERSION=2024-02-15-preview
 DEPLOYMENT_NAME=gpt-4o
 ```
 
@@ -50,7 +50,7 @@ Open `index.html` in your browser. For best results, use a local server (e.g. VS
 
 ---
 
-## �️ Project Structure
+## 🛠️ Project Structure
 
 - `app.py` — Flask backend (API endpoints, Azure OpenAI integration)
 - `index.html` — Frontend chat UI
@@ -64,7 +64,7 @@ Open `index.html` in your browser. For best results, use a local server (e.g. VS
 |--------------------------|---------------------------------------------|
 | AZURE_OPENAI_API_KEY     | Your Azure OpenAI API key                   |
 | AZURE_OPENAI_ENDPOINT    | Your Azure OpenAI resource endpoint         |
-| AZURE_OPENAI_API_VERSION | API version (default: 2025-08-31-preview)   |
+| AZURE_OPENAI_API_VERSION | API version (default: 2024-02-15-preview)   |
 | DEPLOYMENT_NAME          | Your Azure OpenAI deployment name           |
 
 ---
@@ -97,4 +97,3 @@ Open `index.html` in your browser. For best results, use a local server (e.g. VS
 ## 📄 License
 
 MIT License. See [LICENSE](LICENSE).
-| DEPLOYMENT_NAME        | Your Azure OpenAI deployment name           |
