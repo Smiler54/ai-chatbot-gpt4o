@@ -79,7 +79,7 @@ Open `index.html` in your browser. For best results, use a local server (e.g. VS
 
 ## 🖼️ Screenshot
 
-![Chatbot Output](output.jpg)
+![Chatbot Output](output.png)
 
 ---
 
