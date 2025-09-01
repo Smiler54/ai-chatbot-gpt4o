@@ -50,7 +50,7 @@ Open `index.html` in your browser. For best results, use a local server (e.g. VS
 
 ---
 
-## �️ Project Structure
+## 🛠️ Project Structure
 
 - `app.py` — Flask backend (API endpoints, Azure OpenAI integration)
 - `index.html` — Frontend chat UI
@@ -79,7 +79,7 @@ Open `index.html` in your browser. For best results, use a local server (e.g. VS
 
 ## 🖼️ Screenshot
 
-![Chatbot Output](screenshots/Output_Page.jpg)
+![Chatbot Output](output.jpg)
 
 ---
 

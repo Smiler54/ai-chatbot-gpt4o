@@ -133,4 +133,4 @@ if __name__ == '__main__':
         print("AZURE_OPENAI_ENDPOINT=https://your-resource-name.openai.azure.com/")
         print("DEPLOYMENT_NAME=your_deployment_name")
     
-    app.run(debug=True, host='0.0.0.0', port=5000)
+    app.run(debug=True, host='0.0.0.0', port=8000)
