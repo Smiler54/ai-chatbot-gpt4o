@@ -43,7 +43,7 @@ DEPLOYMENT_NAME=gpt-4o
 ```bash
 python app.py
 ```
-The backend runs at `http://localhost:5000`.
+The backend runs at `http://localhost:8000`.
 
 ### 5. Open the frontend
 Open `index.html` in your browser. For best results, use a local server (e.g. VS Code Live Server extension).
@@ -80,17 +80,6 @@ Open `index.html` in your browser. For best results, use a local server (e.g. VS
 ## 🖼️ Screenshot
 
 ![Chatbot Output](output.png)
-
----
-
-## 👤 Authors & Credits
-
-- Nandan Mishra
-- Jyoti Kumari
-- Juhi Kumari
-- Prachi Singh
-
-**Mentor:** Mr. Rohit Ranjan
 
 ---
 
